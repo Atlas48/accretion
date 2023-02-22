@@ -9,7 +9,9 @@ description = {
 }
 dependencies = {
   "lua >= 5.1",
-  "lua-toml >= 2.0-1"
+  "lua-toml >= 2.0-1",
+  "lua-discount >= 1.2.10.1-1",
+  "etlua >= 1.3.0-1"
 }
 build = {
    type = "builtin",
