@@ -10,7 +10,7 @@ if not f then
   ast.err("Unable to open '_cfg.toml', cannot run program")
   os.exit(1)
 end
-local conf = 
+local conf = toml.parse()
 
 amp.err("Program not implemented, please wait until coding is finished")
 os.exit(1)
